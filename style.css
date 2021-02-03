@@ -85,7 +85,7 @@ text-decoration: none;
 .btn-blue:hover {
   color: #64dfdf;
 	background-color: ;
-	border-radius: 30%;
+	border-radius: 25%;
 }
 
 .fab, .fal, .far, .fas {
@@ -103,3 +103,10 @@ text-decoration: none;
 	color: #64dfdf;
 	}
 
+#cosmo {
+color: white;
+}
+
+#cosmo:hover{
+	color: #64dfdf;
+}
