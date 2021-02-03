@@ -30,24 +30,17 @@ p {
 	font-family: 'Roboto', sans-serif;
 	color: ;
 	margin-bottom: 20px	;
-	text-align: center;
+	text-align: justify;
+	text-align-last: center;
 	font-size: x-small;
-}
-
-div {
-	background-color: #121212;
-	margin: 0 auto;
-	margin: 16px;
-	padding: 24px;
-	align-content: center;
-	border-radius: 5px;
-	box-shadow: 0 10px 30px #1E1E1E;
+	padding: 0 12px;
 }
 
 .img-circle {
 	width: 100px;
 	border-radius: 50%;
 }
+
 
 .list-inline {
 	list-style: none;
@@ -57,6 +50,23 @@ div {
 
 .list-inline li {
 	display: inline-block;
+}
+
+div {
+	background-color: #121212;
+	margin: 0 auto;
+	margin: 16px;
+	padding: 24px;
+	align-content: center;
+	border-radius: 5px;
+	box-shadow: 2px 3px 30px #3c4042;
+}
+
+.container, .card {
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 a {
@@ -93,7 +103,3 @@ text-decoration: none;
 	color: #64dfdf;
 	}
 
-	.container {
-		width: 500px;   /* This sets the width */
-		margin: 0 auto; /* This automatically sets left/right margins */
-	}	
