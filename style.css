@@ -40,6 +40,8 @@ div {
 	margin: 16px;
 	padding: 24px;
 	align-content: center;
+	border-radius: 5px;
+	box-shadow: 0 10px 30px #1E1E1E;
 }
 
 .img-circle {
@@ -85,7 +87,12 @@ text-decoration: none;
   text-rendering: auto;
   line-height: 1;
 	color: black;
-	
+}
+
+.fab:hover {
+	color: #64dfdf;
+	}
+
 	.container {
 		width: 500px;   /* This sets the width */
 		margin: 0 auto; /* This automatically sets left/right margins */
