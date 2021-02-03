@@ -59,7 +59,7 @@ div {
 	padding: 24px;
 	align-content: center;
 	border-radius: 5px;
-	box-shadow: 2px 3px 30px #3c4042;
+	box-shadow: 4px 4px 2px rgb(15 17 18 / 80%);
 }
 
 .container, .card {
